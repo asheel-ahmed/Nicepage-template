@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*background-image: linear-gradient( #f1a40e,white);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    font-family: 'Noto Serif Display';*/
+    background: url(images/background-image.jpg);
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    /*margin-top: 20px;*/
+    background: #f2f2f2;
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 6;
+}
+
+.icons{
+    width: 40%;
+    float: left;
+    text-align: center;
+    line-height: 6;
+}
+
+.close{
+    width: 30%;
+    float: left;
+    line-height: 6;
+    margin-top: 22px;
+}
+
+.close img{
+    float: right;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section{
+    justify-content: space-around;
+}
+
+.container {
+    margin-left: 13%;
+    margin-top: 20px;
+}
+
+.card {
+   background: #ffffff;
+   box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.6);
+   transition: 0.4s;
+   width: 300px;
+   text-align: center;
+   float: left;
+   margin: 10px;
+   border-radius: 50px;
+   padding: 10px;
+   padding-bottom: 40px;
+}
+
+.card img {
+    width: 156px;
+    height: 156px;
+    border-radius: 50% !important;
+    margin-top: 25px;
+}
+
+.card h4 {
+    line-height: 3;
+}
+
+#work {
+    color: #f1a40e;
+    margin-top: -5px;
+}
+
+.para {
+    color: #808080 !important;;
+    margin-top: 25px;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 1.5;
+    font-size: small;
+}
+
+.fa-brands {
+    color: #f1a40e;
+    margin: 3px;
+}
+
+i.fa-brands.fa-facebook-f{
+    line-height: 2.5;
+}
+
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer{
+    background-color: #333333;
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+    text-align: center;
+    padding: 40px;
+}
